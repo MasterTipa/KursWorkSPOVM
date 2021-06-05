@@ -1,0 +1,25 @@
+{
+  "name": "mailagentclient",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "cd connection/ && HOME=~/.electron-gyp node-gyp rebuild --target=8.3.0 --arch=x64 --dist-url=https://electronjs.org/headers",
+    "electron-rebuild": "electron-rebuild"
+  },
+  "author": "Rakitskiy Maxim",
+  "license": "ISC",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://dk_khmurovich@bitbucket.org/dk_khmurovich/lolimailer.git"
+  },
+  "homepage": "https://bitbucket.org/dk_khmurovich/lolimailer#readme",
+  "description": "",
+  "devDependencies": {
+    "electron": "^8.3.0",
+    "electron-rebuild": "^1.11.0",
+    "node-sass": "^4.14.1"
+  }
+}

@@ -1,0 +1,21 @@
+For compile prog.
+Should install :            sudo apt update
+                            sudo apt install node-gyp
+                            sudo apt install jq
+                            sudo snap install curl  # version 7.76.1
+                            curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+                            sudo apt-get update && sudo apt-get upgrade
+                            sudo apt-get install build-essential nodejs -y
+                            //wget https://github.com/stedolan/jq/releases/download/jq-1.6/jq-1.6.tar.gz
+                            sudo apt-get install build-essential curl git python libglib2.0-dev
+                            sudo apt install git
+                            git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
+                            export PATH=`pwd`/depot_tools:"$PATH"
+                            
+
+Next command:             node-gyp configure
+
+Start command:		npm run build
+			npm start
+Test email:            kurs_work_spovm@mail.ru	
+Password:		1a2b3c4d5e6f7g8h9
